@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <div class="main-div">
+                <div class="left">
+                    <img src="logo.png" alt="">
+                    <h2>CodeDynamo</h2>
+                </div>
+                <div class="hamburger" onclick="tooglemenu()">☰</div>
+                <ul class="list-item" id="listitemdata">
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Course</li>
+                    <li>
+                        <div>
+                            <a href="">Signup</a>
+                            <a href="">Login</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+<!-- Banner -->
+
+
+
+ <div class="main-banner">
+        <div class="content">
+            <h2>This is Very <b style="color: cyan;">Awesome</b> .</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ipsam possimus culpa <br> quasi, quam non iste delectus ut numquam <br> quidem dolorem.</p>
+            <button>See More</button>
+            <button>Contact us</button>
+        </div>
+        <div>
+            <img src="banner.png" height="400px" alt="">
+        </div>
+    </div>
+
+
+
+
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Card section -->
+
+    <div class="maindiv">
+        <div class="card">
+            <img src="cart.png" alt="">
+            <h2>Cart</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam architecto rerum tenetur molestiae
+                exercitationem.</p>
+                <button>See More</button>
+        </div>
+        <div class="card">
+            <img src="info.png" alt="">
+            <h2>Service</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam architecto rerum tenetur molestiae
+                exercitationem.</p>
+                <button>See More</button>
+        </div>
+        <div class="card">
+            <img src="social-ad-reach.png" alt="">
+            <h2>Network</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam architecto rerum tenetur molestiae
+                exercitationem.</p>
+                <button>See More</button>
+        </div>
+        <div class="card">
+            <img src="contact-information.png" alt="">
+            <h2>Conatct</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam architecto rerum tenetur molestiae
+                exercitationem.</p>
+
+                <button>See More</button>
+        </div>
+    </div>
+
+
+    <script>
+        function tooglemenu() {
+            document.getElementById("listitemdata").classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
